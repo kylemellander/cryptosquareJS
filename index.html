@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+  </head>
+  <body>
+    <div class="ui container">
+      <h1><i class="icon lock"></i>Cryptosquare Encrypting</h1>
+      <form class="ui form">
+        <div class="field">
+          <label>Insert a sentence or word below:</label>
+          <input type="text" class="ui input" id="str">
+        </div>
+        <button type="submit" class="ui button primary">Submit</button>
+      </form>
+      <div class="ui basic modal">
+        <i class="close icon"></i>
+        <div class="ui header huge">
+          Encrypted text
+        </div>
+        <div class="content">
+          <div id="result">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="semantic/dist/semantic.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/script-jquery.js"></script>
+</html>
